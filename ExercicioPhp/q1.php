@@ -23,8 +23,8 @@ if(isset($_POST['valor1']) && isset($_POST['valor2'])){
 </head>
 <body>
     <form method="post">
-        <input type="number" name="valor1" id="valor1">
-        <input type="number" name="valor2" id="valor2">
+        <input type="number" name="valor1" id="valor1" required>
+        <input type="number" name="valor2" id="valor2" required>
         <input type="submit" value="Calcular">
     </form>
 </body>
