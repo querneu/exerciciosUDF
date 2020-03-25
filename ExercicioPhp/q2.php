@@ -1,3 +1,8 @@
+<!--
+    Ler três números inteiros, a partir de um formulário, e imprimir na tela qual o maior e
+    menor valor fornecido.
+-->
+
 <?php
     if(isset($_POST['valor1']) && isset($_POST['valor2']) && isset($_POST['valor3'])){
         $valor1 = $_POST['valor1'];
