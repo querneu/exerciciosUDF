@@ -6,7 +6,7 @@
 <?php 
 if(isset($_POST['valor'])){
     $valor = $_POST['valor'];
-    $multiplicadores = 1;
+    $multiplicadores = 0;
     //Cria tabela para organização
     echo "<table>";
         echo "<tr>";
