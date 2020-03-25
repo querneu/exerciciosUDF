@@ -39,7 +39,7 @@ if(isset($_POST['valor'])){
 <body>
 
     <form  method="post">
-        <input type="number" name="valor" id="valor">
+        <input type="number" name="valor" id="valor" required>
         <input type="submit" value="Ver tabuada">
     </form>
 </body>
