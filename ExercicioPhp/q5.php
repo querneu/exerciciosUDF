@@ -13,8 +13,11 @@
         $distancia = $_POST['distancia'];
         $consumo = $_POST['consumo'];
         $preco = $_POST['preco'];
-        $resultado = ($distancia/$consumo)*$preco;
-        print("Valor gasto: ".$resultado." Reais");
+        $resultado1 = ($distancia/$consumo)*$preco;
+        $resultado2 = $distancia/$consumo;
+        print("Valor gasto: ".$resultado1." Reais");
+        print("<br>O carro consumirá: ".$resultado2. " Litros");
+
     }
 ?>
 <!DOCTYPE html>
